@@ -59,8 +59,8 @@ img.world-map {
 }
 .weather-location {
   display: block;
-  text-align: center;
-  margin: 30px;
+  text-align: left;
+  margin-top: 20px;
   color: #389393;
   font-size: 21px;
 }
