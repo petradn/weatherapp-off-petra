@@ -16,11 +16,13 @@ function formatTime(time) {
     let day = days[daysIndex];
 
     let monthsIndex = time.getMonth();
-    let months = ["Jan", "Feb", "March", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"]
+    let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 
     let month = months[monthsIndex]; 
 
-    return `${month} - ${day} - ${hours}:${minutes} `;
+    return `${month} 
+    <br/>
+    ${day} - ${hours}:${minutes} `;
 
 }
 
